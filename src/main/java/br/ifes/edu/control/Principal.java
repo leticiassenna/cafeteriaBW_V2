@@ -18,15 +18,15 @@ import br.ifes.edu.view.TelaPromocao;
 public class Principal {
     
     public static void main(String [] args)throws Exception{
+        //MAIN QUANDO HOUVER PROMOCAO
         Promocao promocao = new Promocao();
         TelaPromocao telaProm = new TelaPromocao();
         telaProm.telaPromocao();
         promocao.promocao(telaProm.getDiaSemana());
         
+        //CODIGO PARA QUANDO NÃO HOUVER PROMOCAO
         //FabricaCafe fabricaCafe = new FabricaCafe();
         //TelaCafe telaCafe = new TelaCafe();
-        
-        
         //Cafe cafe = fabricaCafe.fazerCafe(telaCafe.telaCafe());
         //System.out.println(cafe.getNome());
         //cafe.getIngredientes();
